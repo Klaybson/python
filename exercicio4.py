@@ -9,5 +9,5 @@ while i < qt:
     i += 1
 
 while j < i :
-    print('Covidado: ',ps[-i])
+    print('Covidado:',ps[-i])
     i -= 1
