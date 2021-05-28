@@ -8,6 +8,6 @@ while i < qt:
     ps.append(input('Digite o nome do convidados:\n'))
     i += 1
 
-while j < i :
-    print('Covidado:',ps[-i])
-    i -= 1
+for conv in ps :
+    print('Covidado Nº: ',j,conv)
+    j += 1
